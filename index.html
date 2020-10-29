@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<head>
+
+  <title>Web midterm project</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css">
+	<style>
+		.gradient {
+			background: linear-gradient(90deg, #00cae7 0%, #FFFFF1 100%);
+		}
+	</style>
+</head>
+
+<body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+
+<nav id="header" class="fixed w-full z-30 top-0 text-white">
+
+	<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+			
+		<div class="pl-4 flex items-center">
+			<a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
+				<svg class="h-8 fill-current inline"  viewBox="0 0 512.005 512.005">
+				
+				</svg> Arctic Gorillas
+			</a>
+		</div>
+
+		<div class="block lg:hidden pr-4">
+			<button id="nav-toggle" class="flex items-center p-1 text-orange-800 hover:text-gray-900">
+				<svg class="fill-current h-6 w-6" viewBox="0 0 20 20" <title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+			</button>
+		</div>
+
+		<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
+			<ul class="list-reset lg:flex justify-end flex-1 items-center">
+				<li class="mr-3">
+					<a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Sign up/in</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Forum</a>
+				</li>
+				<li class="mr-3">
+					<a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="#">Other apps</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+</nav>
+
+
+
+
+
+<div class="pt-24">
+
+	<div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+		<div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
+			<h1 class="my-4 text-3xl font-bold leading-tight">We have solutions to protect you and your loved ones in the digital world - use your computer and mobile devices without worrying about security.</h1>
+			<p class="leading-normal text-2xl mb-8">Buy an advanced protection system for your important devices</p>
+		
+			
+
+			<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Subscribe</button>
+			
+		</div>
+		<div class="w-full md:w-3/5 py-6 text-center">
+			<img class="w-full md:w-4/5 z-50" src="hero.png">
+		</div>
+		
+	</div>
+
+</div>
+
+<section class="bg-white border-b py-8">
+	<div class="container max-w-5xl mx-auto m-8">
+		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">ArcGtic Antivirus</h1>
+		<div class="w-full mb-4">	
+			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+		</div>
+	
+		<div class="flex flex-wrap">
+			<div class="w-5/6 sm:w-1/2 p-6">
+				<h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">Fast and reliable protection</h3>
+				<p class="text-gray-600 mb-8">Protects against viruses, ransomware and hacker attacks, keeps your computer running fast, even while playing games or watching movies.<br /><br />
+				
+			</div>
+			<div class="w-full sm:w-1/2 p-6">
+
+
+			</div>
+		</div>
+
+</section>	
+
+<section class="bg-white border-b py-8">
+	
+	<div class="container mx-auto flex flex-wrap pt-4 pb-12">
+	
+		<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">Purchase</h1>
+		<div class="w-full mb-4">	
+			<div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+		</div>
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Free version</div>
+					<p class="text-gray-800 text-base px-6 mb-5">
+						You will get all basic options and medium system protection 
+					</p>
+				</a>
+			</div>
+			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+				<div class="flex items-center justify-start">
+					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">Free</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Classic version</div>
+					<p class="text-gray-800 text-base px-6 mb-5">
+						You get all basic options, сonstant updates, future added features and high level system protection
+					</p>
+				</a>
+			</div>
+			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+				<div class="flex items-center justify-center">
+					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">14.99$</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
+			<div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
+				<a href="#" class="flex flex-wrap no-underline hover:no-underline">
+					<div class="w-full font-bold text-xl text-gray-800 px-6">Premium version</div>
+					<p class="text-gray-800 text-base px-6 mb-5">
+						All available functions will be open to you, you will receive an update in beta testing and you will have early access to our future applications.
+					</p>
+				</a>
+			</div>
+			<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+				<div class="flex items-center justify-end">
+					<button class="mx-auto lg:mx-0 hover:underline gradient text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg">29.99$</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="container mx-auto text-center py-6 mb-12">
+
+	<h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">Our other applications</h1>
+	<div class="w-full mb-4">	
+		<div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+	</div>
+	<button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">Home</button>
+		
+</section>
+
+<footer class="bg-white">
+	<div class="container mx-auto  px-8">
+
+        <div class="w-full flex flex-col md:flex-row py-6">
+				
+			<div class="flex-1 mb-6">
+			
+				<a class="text-orange-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl"  href="#"> 
+					</svg> Home
+					
+				</a>
+			</div>
+
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Links</p>
+                <ul class="list-reset mb-6">
+
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Help</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Legal</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Terms</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Privacy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Social</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Facebook</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Instagram</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="flex-1">
+                <p class="uppercase text-gray-500 md:mb-6">Company</p>
+                <ul class="list-reset mb-6">
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Official Blog</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">About Us</a>
+                    </li>
+                    <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+                        <a href="#" class="no-underline hover:underline text-gray-800 hover:text-orange-500">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
